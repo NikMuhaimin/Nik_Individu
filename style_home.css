@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.main ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.main ul li{
+	display: inline-block;
+}
+
+.main ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0 ease;
+	font-weight: bolder;
+}
+
+.main ul li a:hover{
+	background-color: #A09E9F;
+	color: #000;
+}
+
+.main ul li a.active{
+	background-color: #A09E9F;
+	color: #000;
+    letter-spacing: 1px;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.main_name{
+	float: left;
+}
+
+.main_name h1{
+	color; #fff;
+	font-size: 40px;
+	margin: 23px;
+	transition: 1s ease;
+	text-shadow: 2px 2px 2px;
+	font-family: Century Gothic;
+}
+
+.main_name h3{
+	color; #fff;
+	font-size: 15px;
+	margin: 23px;
+	transition: 1s ease;
+	text-shadow: 2px 2px 5px;
+	font-family: Century Gothic;
+}
+
+.about_1{
+	width: 300px;
+	margin: auto;
+	height: 300px;
+	object-position: center;
+}
+
+.about_1 img{
+	clip-path: circle();
+	position: relative;
+	z-index: 100;
+	object-fit: cover;
+	object-position: middle center;
+	margin-top: 10%;
+}
+
+.about_2 h1{
+	color: #fff;
+	text-align: center;
+	font-family: Century Gothic;
+	text-shadow: 2px 2px 5px;
+	margin-top: 8%;
+	transition: 1s ease;
+}
+
+.about_2 p{
+	color: #fff;
+	text-align: center;
+	text-align: justify-all;
+	font-size: 15px;
+	font-style: italic;
+	line-height: 28px;
+	padding: 1%;
+	transition: 1s ease;
+}
+
+.about_3 div{
+	columns: all;
+}
+
+.about_3 h1{
+	color: #fff;
+	font-color: white;
+	text-shadow: 2px 2px 5px;
+	margin-top: 10%;
+	transition: 1s ease;
+}
+
+.about_3 p{
+	padding: 2%;
+}
+
+.about_4 div{
+	columns: all;
+}
+
+.about_4 img{
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	text-align: center;
+}
+
+.about_4 p{
+	padding: 15px;
+	text-align: center;
+	font-style: italic;	
+	font-size: 20px;
+}
+
+.about_4 p{
+	border: 2px transparent;
+	border-spacing: 2%;
+	box-shadow: 2px 2px 7px;
+	border-color: #fff;
+}
+
+.Education_1 div{
+	columns: all;
+}
+
+.Education_1 img{
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	text-align: center;
+}
+
+.Education_1 p{
+	padding: 15px;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	text-shadow: 2px 2px 7px;
+	color: #fff;
+	border: transparent;
+}
+
+.Education_1 p{
+	border: 2px transparent;
+	border-spacing: 2%;
+	box-shadow: 2px 2px 7px;
+	border-color: #fff;
+}
+
+.Education_2 img{
+	clip-path: circle();
+	margin: 10px;
+	margin-top: -55px;
+}
+.Education_2 h1{
+	text-align: center;
+	text-shadow: 2px 2px 7px;
+}
+
+.Education_2 p{
+	color: #fff;
+	text-align: center;
+	text-align: justify-all;
+	font-size: 15px;
+	font-style: italic;
+	line-height: 28px;
+	padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

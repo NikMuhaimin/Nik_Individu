@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.main ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.main ul li{
+	display: inline-block;
+}
+
+.main ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 1s ease;
+	font-weight: bolder;
+}
+
+.main ul li a:hover{
+	background-color: #A09E9F;
+	color: #000;
+}
+
+.main ul li a.active{
+	background-color: #A09E9F;
+	color: #000;
+    letter-spacing: 1px;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.main_name{
+	float: left;
+}
+
+.main_name h1{
+	color; #fff;
+	font-size: 40px;
+	margin: 23px;
+	transition: 2s ease;
+	text-shadow: 2px 2px 2px;
+	font-family: Century Gothic;
+}
+
+.main_name h3{
+	color; #fff;
+	font-size: 15px;
+	margin: 23px;
+	transition: 2s ease;
+	text-shadow: 2px 2px 5px;
+	font-family: Century Gothic;
+}
+
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

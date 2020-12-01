@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	  <meta charset="utf-8">
+	  <meta nano="viewpoint" content="width-device-width, initial-scale=1">
+
+       
+      <link rel="stylesheet" type="text/css" href="style_home.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  	  <title>Gallery | Nik Muhammad Muhaimin</title> 
+
+<style>
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0 ease;
+	font-weight: bolder;
+}
+
+ul li a:hover{
+	background-color: #A09E9F;
+	color: #000;
+}
+
+ul li a.active{
+	background-color: #A09E9F;
+	color: #000;
+    letter-spacing: 1px;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+	background: #f2f2f2;
+	overflow: auto;
+}
+.gallery{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 217px;
+}
+
+.gallery:hover{
+	border: 1px solid #777;
+}
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+}
+footer{
+	padding: 10px;
+	font-size: 17px;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	font font-family: Arial;
+	letter-spacing: 1px;
+	position: relative;
+}
+
+</style>
+</head>   
+
+<body background="EducationPhotos/Pic01.jpg" style="background-repeat: no-repeat; background-attachment: fixed; background-size:cover;">
+	
+	<header>
+		<!--Navbar-->
+		<nav class="navbar-fixed top">
+			<div class="container-fluid">
+		  
+    	<nav class="nav navbar-nav navbar-right">
+    		<ul style="margin-top: 15px; margin-right: 80px; font-family: Century Gothic; font-size: 15px; margin: 30px; padding-right: 50px;">
+	   	  		<li><a href="index.html">Home</a></li>
+	   	    	<li><a href="about.html">About</a></li>
+	   	  		<li><a href="education.html">Education</a></li>
+	   	  		<li><a href="gallery.html" class="active">Gallery</a></li>
+          		<li><a href="contact.html">Contact</a></li>   		
+       		</ul>
+       	</nav>
+      </div>
+	</nav>
+
+	<div class="container">
+
+		<div class="gallery">
+			<img src="GalleryPhotos/Pic92.jpg">
+				<div class="desc" style="font-size: 15px">Me and Ayah | Before he fly to Makkah</div>
+		</div>
+		<div class="gallery">
+			<img src="GalleryPhotos/Pic93.jpg">
+				<div class="desc" style="font-size: 15px">Me and Umi | Before she fly to Makkah</div>
+		</div>
+    	<div class="gallery">
+			<img src="GalleryPhotos/Pic94.jpg">
+				<div class="desc" style="font-size: 15px">December 2020 | Arafah</div>
+		</div>
+		<div class="gallery">
+			<img src="GalleryPhotos/Pic95.jpg">
+				<div class="desc" style="font-size: 15px">December 2020 | Makkah with Siblings</div>
+		</div>
+
+		<div class="gallery">
+			<img src="GalleryPhotos/Pic96.jpg">
+				<div class="desc" style="font-size: 18px">Me | With my squad</div>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<div class="gallery">
+			<img src="GalleryPhotos/Pic99.jpg">
+				<div class="desc" style="font-size: 14px">Me | Looking at other students</div>
+		</div>
+		<div class="gallery">
+			<img src="GalleryPhotos/Pic98.jpg" style="font-size: 15px">
+				<div class="desc">Me | Ready to go home</div>
+		</div>
+		<div class="gallery">
+			<img src="GalleryPhotos/Pic97.jpg" style="font-size: 15px">
+				<div class="desc">Me | Act like a streamer</div>
+		</div>
+		<div class="gallery">
+			<img src="GalleryPhotos/Pic90.jpg" style="font-size: 15px">
+				<div class="desc">Me | Think about my futures</div>
+		</div>
+		<div class="gallery">
+			<img src="GalleryPhotos/Pic91.jpg" style="font-size: 15px">
+				<div class="desc">Me | After training</div>
+		</div>
+	</div>
+
+    </header>
+ 
+ 	<footer>
+ 		<p>Nik's | Gallery</p>
+ 	</footer>
+</body>
+</html>
